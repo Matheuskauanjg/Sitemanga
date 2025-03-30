@@ -1,54 +1,51 @@
-# React + TypeScript + Vite
+# Mundo dos Mangás
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um site moderno e responsivo para explorar e descobrir mangás, construído com React, TypeScript e TailwindCSS.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Categorização de Mangás**: Filtre mangás por categorias como Shonen, Seinen e Shojo
+- **Busca Inteligente**: Encontre seus mangás favoritos facilmente
+- **Interface Responsiva**: Experiência perfeita em qualquer dispositivo
+- **Destaques em Vídeo**: Seção especial com trailers e reviews em destaque
+- **Cards Interativos**: Visualização dinâmica dos mangás com efeitos de hover
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- [React](https://reactjs.org/) - Biblioteca JavaScript para construção de interfaces
+- [TypeScript](https://www.typescriptlang.org/) - Adiciona tipagem estática ao JavaScript
+- [Vite](https://vitejs.dev/) - Build tool e servidor de desenvolvimento
+- [TailwindCSS](https://tailwindcss.com/) - Framework CSS utilitário
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📦 Instalação
+
+1. Clone o repositório:
+```bash
+git clone [url-do-repositório]
+cd project2
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+2. Instale as dependências:
+```bash
+npm install
 ```
+
+3. Inicie o servidor de desenvolvimento:
+```bash
+npm run dev
+```
+
+## 🔧 Scripts Disponíveis
+
+- `npm run dev` - Inicia o servidor de desenvolvimento
+- `npm run build` - Cria a build de produção
+- `npm run lint` - Executa a verificação de linting
+- `npm run preview` - Visualiza a build de produção localmente
+
+## 🤝 Contribuindo
+
+Contribuições são sempre bem-vindas! Por favor, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
