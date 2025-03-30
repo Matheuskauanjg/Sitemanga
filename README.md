@@ -21,7 +21,7 @@ Um site moderno e responsivo para explorar e descobrir mangás, construído com 
 
 1. Clone o repositório:
 ```bash
-git clone [url-do-repositório]
+git clone https://github.com/Matheuskauanjg/Sitemanga.git
 cd project2
 ```
 
